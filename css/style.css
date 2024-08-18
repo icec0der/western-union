@@ -60,6 +60,10 @@
 
 /* home section start */
 
+input {
+	outline: none;
+}
+
 .home {
 	background-color: #fd0;
 	width: 100%;
