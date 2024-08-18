@@ -80,6 +80,9 @@
 .bank_home {
 	position: relative;
 }
+body {
+	background: #000;
+}
 
 .nav_links a {
 	color: #fff;
@@ -196,9 +199,28 @@
 	background: black;
 	padding: 50px 0;
 	color: #fff;
+	margin-top: -3px;
+}
+
+.home_bottom_text_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 50px;
+	background: black;
+	padding: 50px 0;
+	color: #fff;
+	margin-top: -3px;
 }
 
 .home_bottom_text p {
+	transform: skewX(-10deg);
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+.home_bottom_text_2 p {
 	transform: skewX(-10deg);
 	font-size: 16px;
 	font-family: sans-serif;
@@ -323,6 +345,11 @@
 	color: black;
 	background: #fd0;
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
+	background-image: url('	https://www.westernunion.com/staticassets/R24-06.05.2/media/pattern-bg-yellow-section.svg');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .bank_center {
@@ -331,7 +358,7 @@
 	height: 94vh;
 	margin: 0 auto;
 	padding: 15px;
-	background: #e8e4e4;
+	background: #efeeee;
 }
 
 .center_content {
@@ -388,6 +415,7 @@
 
 .bank_price_flex img {
 	margin-bottom: -5px;
+	width: 200px;
 }
 
 /* 
@@ -415,7 +443,7 @@
 }
 
 .img1 p {
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
 }
 
@@ -425,7 +453,7 @@
 
 .img2 p {
 	margin-bottom: -10px;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
 }
 
@@ -440,7 +468,7 @@
 
 .img3 p {
 	margin-bottom: -10px;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
 }
 
@@ -459,7 +487,7 @@
 
 .img4 p {
 	margin-bottom: -10px;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
 }
 
@@ -479,7 +507,7 @@
 
 .img5 p {
 	margin-bottom: -20px;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
 }
 
@@ -498,7 +526,7 @@
 
 .img6 p {
 	margin-bottom: -15px;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
 }
 
@@ -583,6 +611,20 @@
 	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
 }
 
+.home_bottom_text_2 img {
+	width: 30px;
+	height: 30px;
+}
+
+.home_bottom_text_2 .flex {
+	gap: 10px;
+}
+
+.home_bottom_text_2 em {
+	font-size: 17px;
+	font-family: 'Euclid WU', 'Noto Sans', sans-serif;
+}
+
 .responsive {
 	display: none;
 }
@@ -644,6 +686,14 @@
 	}
 
 	.home_bottom_text em {
+		font-size: 14px !important;
+	}
+
+	.home_bottom_text_2 .flex {
+		justify-content: center;
+	}
+
+	.home_bottom_text_2 em {
 		font-size: 14px !important;
 	}
 
@@ -769,6 +819,20 @@
 		align-items: start;
 	}
 
+	.home_bottom_text_2 {
+		background: black;
+		padding: 50px 10px !important;
+		color: #fff;
+		display: block;
+		text-align: start !important;
+		line-height: 30px;
+	}
+
+	.home_bottom_text_2 .flex {
+		justify-content: center;
+		align-items: start;
+	}
+
 	.responsive_links {
 		/* position: absolute; */
 		left: 0;
@@ -781,8 +845,6 @@
 	.home_title {
 		display: block;
 	}
-
-
 
 	.br {
 		display: none;
@@ -884,6 +946,16 @@
 		line-height: 30px;
 	}
 
+	.home_bottom_text_2 {
+		gap: 50px;
+		background: black;
+		padding: 50px 20px;
+		color: #fff;
+		display: block;
+		text-align: center;
+		line-height: 30px;
+	}
+
 	em {
 		font-family: sans-serif;
 		width: 100%;
@@ -912,7 +984,6 @@
 	.footer_2_icons {
 		margin-top: 20px;
 	}
-
 
 	.media_ .media_on_ {
 		top: -10px !important;
@@ -956,6 +1027,10 @@
 	}
 
 	.home_bottom_text .flex {
+		justify-content: center;
+	}
+
+	.home_bottom_text_2 .flex {
 		justify-content: center;
 	}
 
@@ -1090,6 +1165,16 @@
 	}
 
 	.home_bottom_text {
+		gap: 50px;
+		background: black;
+		padding: 50px 0;
+		color: #fff;
+		display: block;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	.home_bottom_text_2 {
 		gap: 50px;
 		background: black;
 		padding: 50px 0;
@@ -1260,6 +1345,17 @@
 	}
 
 	.home_bottom_text em {
+		gap: 50px;
+		background: black;
+		padding: 50px 0;
+		color: #fff;
+		display: block;
+		text-align: center;
+		line-height: 30px;
+		font-size: 20px;
+	}
+
+	.home_bottom_text_2 em {
 		gap: 50px;
 		background: black;
 		padding: 50px 0;
@@ -1618,10 +1714,10 @@
 .select-box .down_ {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	color: #fd0;
 	width: 100%;
 	padding: 5px;
+	gap: 10px;
 }
 
 .select-box.active .down_ {
@@ -1731,7 +1827,7 @@
 
 	.single_text {
 		background: white;
-		padding: 10px ;
+		padding: 10px;
 		border-radius: 10px;
 	}
 }
@@ -1795,22 +1891,22 @@
 	.img6 {
 		width: 100%;
 	}
-	.img1 img{
+	.img1 img {
 		width: 25%;
 	}
-	.img2 img{
+	.img2 img {
 		width: 50%;
 	}
-	.img3 img{
+	.img3 img {
 		width: 60%;
 	}
-	.img4 img{
+	.img4 img {
 		width: 100%;
 	}
-	.img5 img{
+	.img5 img {
 		width: 100%;
 	}
-	.img6 img{
+	.img6 img {
 		width: 100%;
 	}
 
@@ -1821,7 +1917,7 @@
 	.img4 {
 		padding: 35px 0;
 	}
-	.danger_text{
+	.danger_text {
 		padding: 8px;
 	}
 
@@ -1837,7 +1933,7 @@
 		font-size: 15px;
 	}
 
-	.bank_price  {
+	.bank_price {
 		padding: 10px;
 	}
 
@@ -1859,11 +1955,52 @@
 		display: flex;
 		justify-content: center;
 		margin: 0 auto;
-	}	
+	}
 }
 
 @media (min-width: 1350px) and (max-width: 1470px) {
 	.simple {
 		padding: 0 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.responsive_off {
+		display: none;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+	/* .home_bottom_text_2 {
+		display: block;
+	} */
+
+	.responsive_on {
+		display: flex;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+	/* .home_bottom_text_2 {
+		display: block;
+	} */
+
+	.responsive_on {
+		display: block;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+}
+
+@media (min-width: 767px) {
+	.responsive_on {
+		display: none;
+	}
+	.home_bottom_text_2 {
+		margin-top: 3px;
 	}
 }
